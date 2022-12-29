@@ -49,7 +49,7 @@ public abstract class MixinMinecraft {
             ci.cancel();
             if (this.leftClickCounter <= 0) {
                 if (this.objectMouseOver == null) {
-                    logger.error("Null returned as \'hitResult\', this shouldn\'t happen!");
+                    logger.error("Null returned as 'hitResult', this shouldn't happen!");
 
                     if (this.playerController.isNotCreative()) {
                         this.leftClickCounter = 10;
